@@ -49,7 +49,7 @@ export default function HeroHome() {
 
             <div className="max-w-3xl mx-auto">
               <p
-                className="text-2xl text-gray-600 mt-10 mb-10"
+                className="text-2xl text-gray-600 mt-12 mb-12"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >

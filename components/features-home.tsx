@@ -3,11 +3,10 @@
 import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
-import TopImage from "@/public/images/features-top-image.png";
-import FeaturesBg01 from "@/public/images/features-home-bg-01.png";
-import FeaturesElement01 from "@/public/images/features-home-element-01.png";
-import FeaturesElement02 from "@/public/images/features-home-element-02.png";
-import FeaturesElement03 from "@/public/images/features-home-element-03.png";
+
+import EngImg from "@/public/images/mechatronics.png";
+import AiImg from "@/public/images/robotics.png";
+import DevImg from "@/public/images/dev.png";
 
 export default function FeaturesHome() {
   const [tab, setTab] = useState<number>(1);
@@ -24,7 +23,7 @@ export default function FeaturesHome() {
   }, []);
 
   return (
-    <section className="relative">
+    <section className="relative mb-16">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div
         className="absolute inset-0 bg-gray-100 pointer-events-none mb-16"
@@ -38,11 +37,30 @@ export default function FeaturesHome() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">About Me</h1>
-            <p className="text-xl text-gray-600">
+            <p className="text-xl text-gray-600 mb-8">
               As a tech enthusiast, I am passionate about technology and its use
               to improve and ease human life quality. I use a multi-disciplined
               approach to solve problems. A fast learner who adapts quickly to
               assess an organization’s needs.
+            </p>
+
+            <p className="text-xl text-gray-600 mb-8">
+              I am actively looking forward to expanding my knowledge, improving
+              my skills, and obtaining relevant experience in the tech industry
+              in order to help develop world-changing solutions.
+            </p>
+
+            <p className="text-xl text-gray-600">
+              I ❤️ 🏁🏎️, 🎮 , 🍿🎬 , 🎧 , and 📖.
+            </p>
+          </div>
+
+          <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
+            <h3 className="h3 mb-3">My Goal is...</h3>
+            <p className="text-xl text-gray-600 mb-12">
+              ...to combine these technical knowledge areas into a specialized
+              profile which can develop innovative products and solutions using
+              multiple points of view among various tech fields.
             </p>
           </div>
 
@@ -50,19 +68,9 @@ export default function FeaturesHome() {
           <div className="md:grid md:grid-cols-12 md:gap-6">
             {/* Content */}
             <div
-              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6"
+              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-3"
               data-aos="fade-right"
             >
-              <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">My Goal is...</h3>
-                <p className="text-xl text-gray-600 mb-8">
-                  ...to combine these technical knowledge areas into a
-                  specialized profile which can develop innovative products and
-                  solutions using multiple points of view among various tech
-                  fields.
-                </p>
-              </div>
-
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <button
@@ -78,11 +86,12 @@ export default function FeaturesHome() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Building the Simple ecosystem
+                      Coding
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Software development drives innovation, empowers
+                      industries, and shapes the future through transformative
+                      digital solutions.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow shrink-0 ml-3">
@@ -109,11 +118,12 @@ export default function FeaturesHome() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Building the Simple ecosystem
+                      Engineering
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Engineering solves complex problems, advances technology,
+                      builds infrastructure, and propels innovation, shaping our
+                      modern world.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow shrink-0 ml-3">
@@ -143,11 +153,12 @@ export default function FeaturesHome() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Building the Simple ecosystem
+                      Technology
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Technology enhances lives, fuels progress, connects the
+                      world, and drives innovation across diverse industries
+                      globally.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow shrink-0 ml-3">
@@ -164,14 +175,6 @@ export default function FeaturesHome() {
                     </svg>
                   </div>
                 </button>
-              </div>
-
-              <div className="pb-8rem">
-                <p className="text-xl text-gray-600 mt-8">
-                  I am actively looking forward to expanding my knowledge,
-                  improve my skills and obtain relevant experience in the IT
-                  industry in order to help develop world-changing solutions.
-                </p>
               </div>
             </div>
 
@@ -199,37 +202,14 @@ export default function FeaturesHome() {
                     <div className="relative inline-flex flex-col">
                       <Image
                         className="md:max-w-none mx-auto rounded"
-                        src={FeaturesBg01}
+                        src={DevImg}
                         width={500}
                         height={375}
                         alt="Features bg"
                       />
-                      <Image
-                        className="md:max-w-none absolute w-full left-0 transform animate-float"
-                        src={FeaturesElement01}
-                        width={500}
-                        height={147}
-                        alt="Element 01"
-                        style={{ top: "22%" }}
-                      />
-                      <Image
-                        className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500"
-                        src={FeaturesElement02}
-                        width={500}
-                        height={158}
-                        alt="Element 02"
-                        style={{ top: "39%" }}
-                      />
-                      <Image
-                        className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000"
-                        src={FeaturesElement03}
-                        width={500}
-                        height={167}
-                        alt="Element 03"
-                        style={{ top: "77%" }}
-                      />
                     </div>
                   </Transition>
+
                   {/* Item 2 */}
                   <Transition
                     show={tab === 2}
@@ -246,37 +226,14 @@ export default function FeaturesHome() {
                     <div className="relative inline-flex flex-col">
                       <Image
                         className="md:max-w-none mx-auto rounded"
-                        src={FeaturesBg01}
+                        src={EngImg}
                         width={500}
                         height={375}
                         alt="Features bg"
                       />
-                      <Image
-                        className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000"
-                        src={FeaturesElement03}
-                        width={500}
-                        height={167}
-                        alt="Element 03"
-                        style={{ top: "18%" }}
-                      />
-                      <Image
-                        className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500"
-                        src={FeaturesElement02}
-                        width={500}
-                        height={158}
-                        alt="Element 02"
-                        style={{ top: "40%" }}
-                      />
-                      <Image
-                        className="md:max-w-none absolute w-full left-0 transform animate-float"
-                        src={FeaturesElement01}
-                        width={500}
-                        height={147}
-                        alt="Element 01"
-                        style={{ top: "79%" }}
-                      />
                     </div>
                   </Transition>
+
                   {/* Item 3 */}
                   <Transition
                     show={tab === 3}
@@ -293,34 +250,10 @@ export default function FeaturesHome() {
                     <div className="relative inline-flex flex-col">
                       <Image
                         className="md:max-w-none mx-auto rounded"
-                        src={FeaturesBg01}
+                        src={AiImg}
                         width={500}
                         height={375}
                         alt="Features bg"
-                      />
-                      <Image
-                        className="md:max-w-none absolute w-full left-0 transform animate-float"
-                        src={FeaturesElement01}
-                        width={500}
-                        height={147}
-                        alt="Element 01"
-                        style={{ top: "22%" }}
-                      />
-                      <Image
-                        className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500"
-                        src={FeaturesElement02}
-                        width={500}
-                        height={158}
-                        alt="Element 02"
-                        style={{ top: "39%" }}
-                      />
-                      <Image
-                        className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000"
-                        src={FeaturesElement03}
-                        width={500}
-                        height={167}
-                        alt="Element 03"
-                        style={{ top: "77%" }}
                       />
                     </div>
                   </Transition>

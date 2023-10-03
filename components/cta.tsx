@@ -11,9 +11,9 @@ export default function Cta() {
             <div className="flex flex-col lg:flex-row justify-between items-center">
               {/* CTA content */}
               <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
-                <h3 className="h3 text-white mb-2">Interested?</h3>
+                <h3 className="h3 text-white mb-4">Wanna talk?</h3>
                 <p className="text-white text-lg opacity-75">
-                  Contact me directly, send your email to{" "}
+                  Contact me directly. Send your email to{" "}
                   <span className="font-bold">info</span> @{" "}
                   <span className="font-bold">guidosantillan.com</span>
                 </p>
@@ -25,7 +25,7 @@ export default function Cta() {
                   className="btn text-blue-600 bg-gradient-to-r from-blue-100 to-white"
                   href="mailto:info@guidosantillan.com"
                 >
-                  Contact
+                  Say hi :)
                 </a>
               </div>
             </div>
