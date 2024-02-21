@@ -3,7 +3,7 @@ export default function HeroHome() {
     <section className="relative">
       {/* Illustration behind hero content */}
       <div
-        className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1"
+        className="absolute bottom-0 transform -translate-x-1/2 pointer-events-none left-1/2 -z-1"
         aria-hidden="true"
       >
         <svg
@@ -32,29 +32,30 @@ export default function HeroHome() {
         </svg>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl px-4 mx-auto sm:px-6">
         {/* Hero content */}
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-16">
+          <div className="pb-12 text-center md:pb-16">
             <h1
-              className="text-6xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
+              className="mb-4 text-6xl font-extrabold tracking-tighter md:text-6xl leading-tighter"
               data-aos="zoom-y-out"
             >
               Leveraging Technology to Build a{" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-teal-400">
                 Better World
               </span>
             </h1>
 
             <div className="max-w-3xl mx-auto">
               <p
-                className="text-2xl text-gray-600 mt-12 mb-12"
+                className="mt-12 mb-12 font-mono text-3xl text-gray-600"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                I'm <span className="font-semibold">Guido Santillan</span>, a
-                software developer and mechatronics engineer currently living in{" "}
+                I'm <span className="font-semibold">Guido Santillan</span>, a{" "}
+                <span>software developer</span> and{" "}
+                <span>mechatronics engineer</span> currently living in{" "}
                 <span className="font-semibold">Berlin</span>.
               </p>
 
@@ -65,7 +66,7 @@ export default function HeroHome() {
               >
                 <div>
                   <a
-                    className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+                    className="w-full mb-4 text-white bg-blue-600 btn hover:bg-blue-700 sm:w-auto sm:mb-0"
                     href="/contact"
                   >
                     Reach out!
@@ -73,7 +74,7 @@ export default function HeroHome() {
                 </div>
                 <div>
                   <a
-                    className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
+                    className="w-full text-white bg-gray-900 btn hover:bg-gray-800 sm:w-auto sm:ml-4"
                     href="#about-me"
                   >
                     Learn more

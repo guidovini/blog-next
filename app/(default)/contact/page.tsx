@@ -1,4 +1,10 @@
+import Image from "next/image";
+
 import Logo from "@/components/ui/logo";
+
+import githubLogo from "@/public/images/github.png";
+import linkedinLogo from "@/public/images/linkedin.png";
+import envelopeLogo from "@/public/images/envelope.png";
 
 export const metadata = {
   title: "Guido Santillan | Contact",
@@ -8,11 +14,11 @@ export const metadata = {
 export default function Contact() {
   return (
     <>
-      <header className="fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out">
-        <div className="max-w-6xl mx-auto px-5 sm:px-6">
+      <header className="fixed z-30 w-full transition duration-300 ease-in-out md:bg-opacity-90">
+        <div className="max-w-6xl px-5 mx-auto sm:px-6">
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Site branding */}
-            <div className="shrink-0 mr-4">
+            <div className="mr-4 shrink-0">
               <Logo />
             </div>
           </div>
@@ -20,27 +26,65 @@ export default function Contact() {
       </header>
 
       <section>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+        <div className="max-w-6xl px-4 mx-auto sm:px-6">
+          <div className="pt-32 pb-10 md:pt-40 md:pb-12">
             {/* Section header */}
-            <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-              <h1 className="h1 mb-8">Let's build something extraordinary</h1>
-              <p className="text-xl text-gray-600 mb-8">
+            <div className="max-w-3xl pb-10 mx-auto text-center md:pb-12">
+              <h1 className="mb-8 h1">Let's build something extraordinary</h1>
+              <p className="mb-8 text-xl text-gray-600">
                 My passion for creating seamless user experiences, coupled with
                 strong problem-solving skills and a commitment to excellence,
                 ensures innovative and effective web solutions.
               </p>
 
-              <p>Logos go here</p>
+              <div className="flex content-center justify-center">
+                <a
+                  href="https://github.com/guidovini"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={githubLogo}
+                    width={175}
+                    height={175}
+                    className="p-8 opacity-40 hover:opacity-70"
+                    alt="github logo"
+                  />
+                </a>
 
-              <div className="w-1/3 px-3 mx-auto">
+                <a
+                  href="https://www.linkedin.com/in/guidovini/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={linkedinLogo}
+                    width={175}
+                    height={175}
+                    className="p-8 opacity-40 hover:opacity-70"
+                    alt="linkedin logo"
+                  />
+                </a>
+
+                <a href="mailto:info@guidosantillan.com">
+                  <Image
+                    src={envelopeLogo}
+                    width={200}
+                    height={200}
+                    className="p-8 red-600 opacity-40 hover:opacity-70 "
+                    alt="mail logo"
+                  />
+                </a>
+              </div>
+
+              {/* <div className="w-1/3 px-3 mx-auto">
                 <a
                   href="mailto:info@guidosantillan.com"
-                  className="btn px-0 text-white bg-gray-900 hover:bg-gray-800 w-full relative flex items-center"
+                  className="relative flex items-center w-full px-0 text-white bg-gray-900 btn hover:bg-gray-800"
                 >
                   <span className="flex-auto pl-8 pr-8 ">Contact</span>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

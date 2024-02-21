@@ -1,20 +1,20 @@
 export default function Cta() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl px-4 mx-auto sm:px-6">
         <div className="pb-12 md:pb-20">
           {/* CTA box */}
           <div
-            className="bg-blue-600 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl"
+            className="px-8 py-10 bg-blue-600 rounded shadow-2xl md:py-16 md:px-12"
             data-aos="zoom-y-out"
           >
-            <div className="flex flex-col lg:flex-row justify-between items-center">
+            <div className="flex flex-col items-center justify-between lg:flex-row">
               {/* CTA content */}
-              <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
-                <h3 className="h3 text-white mb-4">Wanna talk?</h3>
-                <p className="text-white text-lg opacity-75">
+              <div className="mb-6 text-center lg:mr-16 lg:mb-0 lg:text-left">
+                <h3 className="mb-4 text-white h3">Wanna talk?</h3>
+                <p className="text-lg text-white opacity-75">
                   Contact me directly. Send your email to{" "}
-                  <span className="font-bold">info</span> @{" "}
+                  <span className="font-bold">info</span> at{" "}
                   <span className="font-bold">guidosantillan.com</span>
                 </p>
               </div>
@@ -22,8 +22,8 @@ export default function Cta() {
               {/* CTA button */}
               <div>
                 <a
-                  className="btn text-blue-600 bg-gradient-to-r from-blue-100 to-white"
-                  href="mailto:info@guidosantillan.com"
+                  className="text-blue-600 btn bg-gradient-to-r from-blue-100 to-white"
+                  href="/contact"
                 >
                   Say hi :)
                 </a>
