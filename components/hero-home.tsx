@@ -38,7 +38,7 @@ export default function HeroHome() {
           {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
             <h1
-              className="mb-4 text-6xl font-extrabold tracking-tighter md:text-6xl leading-tighter"
+              className="mb-4 text-5xl font-extrabold tracking-tighter md:text-6xl leading-tighter"
               data-aos="zoom-y-out"
             >
               Leveraging Technology to Build a{" "}
@@ -49,7 +49,7 @@ export default function HeroHome() {
 
             <div className="max-w-3xl mx-auto">
               <p
-                className="mt-12 mb-12 font-mono text-3xl text-gray-600"
+                className="mt-12 mb-12 font-mono text-2xl text-gray-600 md:text-3xl"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >

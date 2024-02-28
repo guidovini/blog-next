@@ -31,11 +31,11 @@ export default function Contact() {
             {/* Section header */}
             <div className="max-w-3xl pb-10 mx-auto text-center md:pb-12">
               <h1 className="mb-8 h1">Let's build something extraordinary</h1>
-              <p className="mb-8 text-xl text-gray-600">
+              {/* <p className="mb-8 text-xl text-gray-600">
                 My passion for creating seamless user experiences, coupled with
                 strong problem-solving skills and a commitment to excellence,
                 ensures innovative and effective web solutions.
-              </p>
+              </p> */}
 
               <div className="flex content-center justify-center">
                 <a

@@ -51,7 +51,7 @@ export default function FeaturesHome() {
             </p>
 
             <p className="text-2xl text-gray-600">
-              i ❤️ 🏁🏎️ | 🎮 | 🍿🎬 | 🎧 | and 📖.
+              i ❤️ [🏁🏎️][🎮][🍿🎬][🎧][📖]
             </p>
           </div>
 
