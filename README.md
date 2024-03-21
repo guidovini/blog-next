@@ -1,3 +1,15 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4b5e3157-a5d8-4193-a9d7-37e3698dca8e/deploy-status)](https://app.netlify.com/sites/guidosantillan/deploys)
+
+<h1 align="center">
+  Guido Santillan Personal Blog
+</h1>
+
+Updated version of my blog. Build with NextJS
+
+[www.guidosantillan.com](www.guidosantillan.com)
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
