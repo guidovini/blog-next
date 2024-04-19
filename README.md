@@ -6,7 +6,7 @@
 
 Updated version of my blog. Build with NextJS
 
-[www.guidosantillan.com](www.guidosantillan.com)
+[www.guidosantillan.com](https://www.guidosantillan.com)
 
 ---
 
