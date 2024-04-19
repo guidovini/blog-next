@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4b5e3157-a5d8-4193-a9d7-37e3698dca8e/deploy-status)](https://app.netlify.com/sites/guidosantillan/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/34e366d3-e917-44a7-a53b-4dce62ce9fd3/deploy-status)](https://app.netlify.com/sites/guidosantillan/deploys)
 
 <h1 align="center">
   Guido Santillan Personal Blog
