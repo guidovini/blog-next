@@ -34,12 +34,13 @@ export default function FeaturesHome() {
 
       <div className="relative max-w-6xl px-4 mx-auto sm:px-6">
         <div className="pt-12 md:pt-20">
-          <div className="mb-8 md:pr-4 lg:pr-12 xl:pr-16">
-            <h3 className="mb-3 h3">My Goal is...</h3>
+          <div className="max-w-3xl mx-auto text-left ">
+            <h1 className="mb-4 h2">My Goal</h1>
+
             <p className="mb-12 text-xl text-gray-600">
-              ...to combine these technical knowledge areas into a specialized
-              profile which can develop innovative products and solutions using
-              multiple points of view among various tech fields.
+              To strategically merge technical knowledge from Software
+              Engineering, Robotics, IoT, and AI-Driven platforms, enabling the
+              development of cutting-edge products and solutions.
             </p>
           </div>
 

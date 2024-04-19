@@ -1,0 +1,24 @@
+.text-react {
+  font-family: "Optimistic Display", -apple-system, ui-sans-serif, system-ui,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  font-weight: 600;
+  color: rgb(8, 126, 164);
+}
+
+.text-ts {
+  font-family: "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  font-weight: 200;
+}
+
+.text-gql {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: rgb(225, 0, 152);
+}
+
+.text-next {
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}

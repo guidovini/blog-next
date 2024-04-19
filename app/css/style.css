@@ -9,6 +9,8 @@
 
 @import 'tailwindcss/utilities';
 
+@import 'custom-styles.css';
+
 /* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
 @layer utilities {
     .rtl {

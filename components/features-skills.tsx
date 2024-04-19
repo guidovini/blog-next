@@ -17,7 +17,10 @@ export default function FeaturesHome() {
           <div className="max-w-3xl pb-12 mx-auto text-right md:pb-16">
             <h1 className="mb-4 h2">My Tech Stack</h1>
             <p className="mb-8 text-2xl text-gray-600">
-              React.js, Typescript, GraphQL, Next.js
+              <span className="text-react">React.js</span>,{" "}
+              <span className="text-ts">Typescript</span>,{" "}
+              <span className="text-gql">GraphQL</span>,{" "}
+              <span className="text-next">Next.js</span>
             </p>
 
             <span>Supporting the React ecosystem</span>
