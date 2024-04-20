@@ -34,7 +34,7 @@ export default function HeroHome() {
 
       <div className="max-w-6xl px-4 mx-auto sm:px-6">
         {/* Hero content */}
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+        <div className="pt-32 pb-12 md:pt-32 md:pb-20">
           {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
             <h1

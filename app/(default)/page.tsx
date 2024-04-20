@@ -1,5 +1,6 @@
 export const metadata = {
-  title: "Guido Santillan | Web Developer living in Berlin",
+  title:
+    "Guido Santillan | Software Engineer living in Berlin | ReactJS, TS, GraphQL",
   description: "Guido Santillan personal page",
 };
 

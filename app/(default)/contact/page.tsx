@@ -26,11 +26,16 @@ export default function Contact() {
       </header>
 
       <section>
+        {/* <div
+          className="absolute inset-0 bg-white pointer-events-none bg-pattern"
+          aria-hidden="true"
+        ></div> */}
+
         <div className="max-w-6xl px-4 mx-auto sm:px-6">
           <div className="pt-32 pb-10 md:pt-40 md:pb-12">
             {/* Section header */}
             <div className="max-w-3xl pb-10 mx-auto text-center md:pb-12">
-              <h1 className="mb-8 h1">Let's build something extraordinary</h1>
+              <h1 className="mb-8 h1">Let's Build Something Extraordinary</h1>
               {/* <p className="mb-8 text-xl text-gray-600">
                 My passion for creating seamless user experiences, coupled with
                 strong problem-solving skills and a commitment to excellence,
@@ -66,7 +71,7 @@ export default function Contact() {
                   />
                 </a>
 
-                <a href="mailto:info@guidosantillan.com">
+                <a href="mailto:info@guidosantillan.com" className="mt-2">
                   <Image
                     src={envelopeLogo}
                     width={200}

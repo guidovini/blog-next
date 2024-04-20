@@ -25,14 +25,15 @@ export default function FeaturesHome() {
 
             <span>Supporting the React ecosystem</span>
             <p className="mb-8 text-xl text-gray-600">
-              styled-components, Storybook, React Router, Redux, TanStack Query,
+              Redux, React Router, styled-components, Storybook, TanStack Query,
               Apollo Client, AgGrid, i18n, OpenLayers, Formik, Relay, Bootstrap,
-              Zustand, React Native
+              Zustand, Tailwind CSS
             </p>
 
             <span>Additional tools</span>
             <p className="mb-8 text-xl text-gray-600">
-              Docker, Git, Testing Library, Playwright
+              React Native, Docker, Git, CI/CD, Jest, Testing Library,
+              Playwright
             </p>
           </div>
         </div>
