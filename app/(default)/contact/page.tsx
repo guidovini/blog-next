@@ -71,7 +71,10 @@ export default function Contact() {
                   />
                 </a>
 
-                <a href="mailto:info@guidosantillan.com" className="mt-2">
+                <a
+                  href="mailto:info@guidosantillan.com"
+                  className="mt-0 md:mt-2"
+                >
                   <Image
                     src={envelopeLogo}
                     width={200}
