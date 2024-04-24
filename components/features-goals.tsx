@@ -221,7 +221,7 @@ export default function FeaturesHome() {
                         src={DevImg}
                         width={500}
                         height={375}
-                        alt="Features bg"
+                        alt="coding"
                       />
                     </div>
                   </Transition>
@@ -245,7 +245,7 @@ export default function FeaturesHome() {
                         src={RoboticsImg}
                         width={500}
                         height={375}
-                        alt="Features bg"
+                        alt="robotics "
                       />
                     </div>
                   </Transition>
@@ -293,7 +293,7 @@ export default function FeaturesHome() {
                         src={AiImg}
                         width={500}
                         height={375}
-                        alt="Features bg"
+                        alt="artifial intelligence"
                       />
                     </div>
                   </Transition>
